@@ -1,6 +1,8 @@
 /* ------------------------------------------------
   G L O B A L  S T Y L E S
 ---------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
 /* basic reset */
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
@@ -56,29 +58,36 @@ a  {
   width: 60%;
   max-width: 600px;
   min-width: 500px;
-  margin: 20% auto;
+  margin: 5% auto;
   background: #ffffff;
   padding: 1.5rem 2rem;
   box-shadow: 0 0 2px rgba(0,0,0,0.2);
 }
 
 h1 {
-    font-family: 'Rokkitt', sans-serif;
-    text-align: center;
-    font-weight: 400;
-    margin: 0;
+  font-family: 'Krona One', sans-serif;
+  color: rgb(112, 166, 187);
+  text-align: center;
+  font-weight: 400;
+  margin: 10px auto 50px;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 400;
+  margin: 20% auto;
 }
 
 .btn {
-    border: none;
-    border-radius: 2px;
-    outline: none;
-    padding: 1.018em 1.2em;
-    color: #fff;
-    text-transform: uppercase;
-    transition: all 0.3s;
-    font-size: 0.8em;
-    text-align: center;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+  padding: 1.018em 1.2em;
+  color: #fff;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  font-size: 0.8em;
+  text-align: center;
   background-color: #444;
   cursor: pointer;
 }

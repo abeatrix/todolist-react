@@ -13,6 +13,11 @@ class TodoModel {
         return request;
     };
 
+    static update = (todo) => {
+        const request = axios.put(`${URL}/${todo._id}`, todo);
+        return request;
+    };
+
     static all = () => {
         const request = axios.get(URL);
         return request;

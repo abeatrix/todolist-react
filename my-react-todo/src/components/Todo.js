@@ -1,7 +1,18 @@
 import React, { Component } from 'react';
-import axios from "axios";
+import TodoForm from './TodoForm';
 
 class Todo extends Component {
+    state ={
+        formStyle: {
+            display: 'none',
+        },
+    };
+
+    toggleBodyForm = () => {
+        this.state.formStyle.display === 'block'
+        ? this.setState({ formStyle: {display: 'none'} })
+        : this.setState({ formStyle: {display: 'block'} });
+    }
 
     deleteClickedTodo = () => {
         this.props.deleteTodo(this.props.todo);
@@ -10,13 +21,28 @@ class Todo extends Component {
     render() {
     return (
         <li data-todos-index={this.props.todo._id}>
-        <span className="todo-item">{this.props.todo.body}</span>
-        <span
-            className='remove'
-            onClick={this.deleteClickedTodo}>
-            Remove
-        </span>
-        </li>
+        <div>
+            <span className="todo-item">
+                {this.props.todo.body}</span>
+            <span
+                className='edit'
+                onClick={this.toggleBodyForm}>
+                <i class="fas fa-edit"></i>
+            </span>
+            <span
+                className='remove'
+                onClick={this.deleteClickedTodo}>
+                <i class="far fa-trash-alt"></i>
+            </span>
+            </div>
+            <TodoForm
+                todo={this.props.todo}
+                style={this.state.formStyle}
+                autoFocus={true}
+                updateTodo={this.props.updateTodo}
+                toggleBodyForm={this.toggleBodyForm}
+            />
+      </li>
     );
     };
 };
