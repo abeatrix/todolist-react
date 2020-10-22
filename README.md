@@ -1,4 +1,4 @@
-# todolist-react
+# Just another Todo App in React
 A to-do app built in React that persists with a backend.
 
 
