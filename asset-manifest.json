@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/abeatrix/todolist-react/static/css/main.d9022057.chunk.css",
+    "main.js": "/abeatrix/todolist-react/static/js/main.2d88745e.chunk.js",
+    "main.js.map": "/abeatrix/todolist-react/static/js/main.2d88745e.chunk.js.map",
+    "runtime-main.js": "/abeatrix/todolist-react/static/js/runtime-main.a0c18950.js",
+    "runtime-main.js.map": "/abeatrix/todolist-react/static/js/runtime-main.a0c18950.js.map",
+    "static/js/2.8e2a940b.chunk.js": "/abeatrix/todolist-react/static/js/2.8e2a940b.chunk.js",
+    "static/js/2.8e2a940b.chunk.js.map": "/abeatrix/todolist-react/static/js/2.8e2a940b.chunk.js.map",
+    "index.html": "/abeatrix/todolist-react/index.html",
+    "precache-manifest.f9d8eb154f78dac2e7f2cc2130da6b94.js": "/abeatrix/todolist-react/precache-manifest.f9d8eb154f78dac2e7f2cc2130da6b94.js",
+    "service-worker.js": "/abeatrix/todolist-react/service-worker.js",
+    "static/css/main.d9022057.chunk.css.map": "/abeatrix/todolist-react/static/css/main.d9022057.chunk.css.map",
+    "static/js/2.8e2a940b.chunk.js.LICENSE.txt": "/abeatrix/todolist-react/static/js/2.8e2a940b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a0c18950.js",
+    "static/js/2.8e2a940b.chunk.js",
+    "static/css/main.d9022057.chunk.css",
+    "static/js/main.2d88745e.chunk.js"
+  ]
+}
